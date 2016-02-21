@@ -45,6 +45,27 @@ class DB
 		   		echo $e->getMessage();
 		   	}
 	   }
+	   /*function insert($a,$t)
+	   {
+	   	try
+	   	{
+	   		$sql=<<<EOSQL
+	   		INSERT INTO $t()
+EOSQL;
+	   		for($i=0;$i<count($a);$i++)
+		   	{
+		   		if($i=count($a)-1)
+		   		{
+		   				
+		   		}
+		   		else
+		   		{
+
+		   		}
+		   	}	
+	   	}
+		   	
+	   }*/
 
 }
 // END OF DB CLASS
